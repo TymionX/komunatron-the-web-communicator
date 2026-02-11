@@ -1,60 +1,34 @@
-# my-communicator
-this is veryyyyy early version
+🚀 Komunatron – Your Future Messenger!
 
-hey, this is my communicator, i didn't name it yet. I'm doing it as a school project, and hope you like it!
-Password are not being hashed yet because if I forgot password for test users i have for testing purpues I can check it in database, in the final version I will add it.
-Messages probably wont be encrypted for in structure this project has, admin hosting it would have access to keys and stuff anyway (but maybe there's way around it, i'm don't know much about it)
-Frontend looks bad because I will make it look good when all planned features are added.
-Planned features are:
-Personalizeing user's profile
-Sending files
-deleting and editing sended messages
-notifications 
+Komunatron is a modern, minimalist, and warm internet messenger designed with unity and effective communication in mind. Its priority is flexibility and full control over your data. There are no central servers, no hidden fees – this is communication on your terms!
 
-Plausibe features are:
-Personalizing chat's look
-group's chats
+🔓 Open-source and Full Freedom
 
-newest updates:
-- everything transtaled into english 
+Komunatron is fully open-source and operates under the GPL-3.0 license, meaning anyone can download, modify, and adapt it to their needs. No ads, no subscriptions – full transparency and freedom to use. Want to add your own features? Go ahead!
+🌍 Available for Everyone – Locally and Globally
+
+You can run Komunatron on your own server in a LAN network, creating a your own communication infrastructure – ideal for companies, institutions, communities, or even home users. Want a secure chat for your company? Or perhaps a messenger for a group of friends where you control the flow of data, not corporations or governments? Komunatron gives you full control!
+🔥 Key Features:
+
+    ✅ Open-source – Create your own fork, modify the design, add new features, or find and fix bugs! 🛠️
+    ✅ No central servers – Your data is wherever you choose to place it! 🏠
+    ✅ Minimalist interface – lightweight, clear, and pleasant to use! 🎨
+    ✅ Easy deployment – Host it on Raspberry Pi, VPS, local server – wherever you want!
+    ✅ Support for various platforms – Desktop, web, and in the future, mobile! 📱
+
+❓ Why Komunatron?
+
+In a world full of closed platforms and mass surveillance, Komunatron is a breath of fresh air – communication without intermediaries or imposed rules. You don't need to trust external companies – you decide about your data!
+
+🚧 Plans for the Future:
+
+    🔐 Message encryption – in the future, we will enhance the security of your communication!
+    👥 Group chats – because 1:1 conversations are just the beginning!
+    ✏️ Edit messages – typos won’t be an issue anymore!
+    🚨 Report messages – more control over the content on your server!
+    🎨 UI and UX improvements – better aesthetics and user comfort
 
 
-structure of project:
-<pre><span style="background-color:#FFFFFF"><font color="#2B2B2B">                                                                                                                                                                                                         </font></span>
-project
-├── app
-│   ├── config (didn&apos;t used yet)
-│   ├── includes
-│   │   └── connect_to_database.php
-│   ├── logic
-│   │   ├── add_conversation.php (adding new chats)
-│   │   ├── load_users.php (loading chats)
-│   │   ├── login_logic.php (loging)
-│   │   ├── main_logic.php (logout and checking if user is logged in)
-│   │   ├── messages.js (handlig of sending and reciving messages) 
-│   │   ├── messages_send.php (sending messages)
-│   │   ├── messages_show_new.php (loading new resived messages)
-│   │   ├── messages_show.php (loading older messages)
-│   │   ├── register_logic.php (registering)
-│   │   ├── select_user.php (selecting chat you want to chat in)
-│   │   └── show_user.js (showing your chats)
-│   └── views
-│       └── main_view.php (awful fronend, will be better in future)
-└── public
-    ├── css (css styles)
-    │   ├── style2.css
-    │   ├── style.css
-    │   └── test_usun_potem.html (file for testing purpuse, can be deleted)
-    ├── img (images which are now used for testing)
-    │   ├── 1ea6ce814fa8e3e8754ecf67e19fce33.jpg
-    │   ├── 6e19c0876087c28535019531542d6c16.jpg
-    │   ├── default_pfp.jpg
-    │   └── hachi.jpg
-    ├── index.php
-    ├── login.php
-    ├── register.php
-    └── setting.php (there will be user settings, it&apos;s not implemented yet)
-</pre>
 
-hopes you enjoy this project!
+
             
