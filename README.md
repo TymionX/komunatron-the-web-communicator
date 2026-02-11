@@ -29,6 +29,8 @@ In a world full of closed platforms and mass surveillance, Komunatron is a breat
     🎨 UI and UX improvements – better aesthetics and user comfort
 
 
+# This description is not fully truthful due to me wanting it to sound cool
+
 
 
             
